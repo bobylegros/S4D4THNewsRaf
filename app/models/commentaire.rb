@@ -1,4 +1,5 @@
 class Commentaire < ApplicationRecord
-  belongs_to :user, :url
-  
+
+  belongs_to  :user, through: :url
+
 end
